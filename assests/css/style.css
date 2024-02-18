@@ -53,7 +53,6 @@ a:hover {
   color: var(--color-brand);
 }
 
-
 /* main content styling */
 .full-height {
   min-height: 100vh;
@@ -105,6 +104,15 @@ a:hover {
   transform: scale(1.1);
 }
 
+/* parallax scroll for home page */
+.parallax {
+  background-image: url("../images/gradientt.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* button */
 .btn {
   padding: 12px 28px;
@@ -142,4 +150,10 @@ a:hover {
 
 .link-custom:hover::after {
   width: 100%;
+}
+
+/* footer styling */
+
+.footer {
+  background-color: var(--color-base);
 }
