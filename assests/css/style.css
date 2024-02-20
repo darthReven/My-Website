@@ -94,6 +94,7 @@ a:hover {
 
 .card-custom .card-custom-image {
   overflow: hidden;
+  text-align: center;
 }
 
 .card-custom .card-custom-image img {
@@ -102,6 +103,20 @@ a:hover {
 
 .card-custom:hover .card-custom-image img {
   transform: scale(1.1);
+}
+
+.same-height {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+#homeserver {
+  width: 20%;
+}
+
+#mywebsite {
+  width: 42%;
 }
 
 #mypic {
